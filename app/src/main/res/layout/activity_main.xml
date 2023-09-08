@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity">-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/inputMoney"
+        android:layout_width="300dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Ввод денег"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <EditText
+        android:id="@+id/inputInfo"
+        android:layout_width="298dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="Ввод информации об оплате"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Подтверждения оплаты"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <Switch
+        android:id="@+id/bankCardChkBx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Банковская карта"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="311dp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/mobilePhoneChkBx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="С мобильного телефона"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="364dp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/cashAddressChkBx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Наличными по адресу"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="414dp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+</LinearLayout>
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
